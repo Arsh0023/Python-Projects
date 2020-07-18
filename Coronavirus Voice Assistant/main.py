@@ -143,6 +143,7 @@ def main():
             data.update()
 
         if result:
+            print(result)
             speak(result)
 
         if text.find(END_PHRASE) != -1:  # Stop
